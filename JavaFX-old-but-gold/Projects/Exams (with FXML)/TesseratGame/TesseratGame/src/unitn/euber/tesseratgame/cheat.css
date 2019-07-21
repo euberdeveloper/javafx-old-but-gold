@@ -1,0 +1,11 @@
+/*
+ * Author: Eugenio Vinicio Berretta
+ */
+
+#cheat {
+    -fx-min-width: 400.0;
+    -fx-min-height: 200.0;
+    -fx-padding: 20.0;
+    -fx-spacing: 10.0;
+    -fx-alignment: CENTER;
+}

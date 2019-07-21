@@ -1,0 +1,65 @@
+/* 
+    Created on : 12-giu-2019, 22.51.22
+    Author     : Eugenio Vinicio Berretta
+*/
+
+#game-area {
+    -fx-pref-width: 600.0;
+    -fx-pref-height: 700.0;
+}
+
+#game-status {
+    -fx-padding: 30.0;
+    -fx-border-color: green;
+    -fx-border-width: 4;
+    -fx-background-color: azure;
+    -fx-alignment: CENTER;
+    -fx-hgap: 20;
+    -fx-vgap: 20;
+}
+
+.status-label {
+    -fx-font-size: 15;
+    -fx-font-style: italic;
+}
+
+.status-value {
+    -fx-font-weight: bold;
+}
+
+.blue {
+    -fx-text-fill: blue;
+}
+.green {
+    -fx-text-fill: green;
+}
+.red {
+    -fx-text-fill: red;
+}
+
+.action-button {
+    -fx-background-color: burlywood;
+    -fx-pref-height: 50.0;
+    -fx-pref-width: 80.0;
+}
+.action-button:hover {
+    -fx-background-color: goldenrod;
+}
+.action-button:pressed {
+    -fx-background-color: chocolate;
+}
+
+#game-actions {
+    -fx-padding: 30.0;
+    -fx-border-color: red;
+    -fx-border-width: 4;
+    -fx-background-color: azure;
+    -fx-alignment: CENTER;
+    -fx-hgap: 20;
+    -fx-vgap: 20;
+}
+
+#grid {
+    -fx-padding: 20.0;
+    -fx-background-color: mediumaquamarine;
+}

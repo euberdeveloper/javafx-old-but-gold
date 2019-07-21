@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane id="view-container" stylesheets="unitn/euber/carpeople/car-people.css" xmlns:fx="http://javafx.com/fxml/1" fx:controller="unitn.euber.carpeople.CarPeopleController">
+    <left>
+        <BorderPane>
+            <top>
+                <TextArea styleClass="text-area" disable="true" fx:id="taPersone"></TextArea>
+            </top>
+            <center>
+                <VBox styleClass="center-container">
+                    <Button styleClass="center-button" onAction="#mescolaPersone" >MESCOLA</Button>
+                    <Button styleClass="center-button" onAction="#ordinaPersone" >ORDINA</Button>
+                    <Button styleClass="center-button" onAction="#contaPersone" >CONTA</Button>
+                    <Button styleClass="center-button" onAction="#ordinaAnnoPersone" >ORDINA PER ANNO</Button>
+                </VBox>
+            </center>
+            <bottom>
+                <HBox styleClass="bottom-container">
+                    <Button styleClass="bottom-button" onAction="#addPersona">NEW PERSONA</Button>
+                </HBox>
+            </bottom>
+        </BorderPane>
+    </left>
+    <right>
+        <BorderPane>
+            <top>
+                <TextArea styleClass="text-area" disable="true" fx:id="taCars"></TextArea>
+            </top>
+            <center>
+                <VBox styleClass="center-container">
+                    <Button styleClass="center-button" onAction="#mescolaCars">MESCOLA</Button>
+                    <Button styleClass="center-button" onAction="#ordinaCars">ORDINA</Button>
+                    <Button styleClass="center-button" onAction="#contaCars">CONTA</Button>
+                    <Button styleClass="center-button" onAction="#ordinaAnnoCars" >ORDINA PER ANNO</Button>
+                </VBox>
+            </center>
+            <bottom>
+                <HBox styleClass="bottom-container">
+                    <Button styleClass="bottom-button" onAction="#addCar">NEW AUTO</Button>
+                </HBox>
+            </bottom>
+        </BorderPane>
+    </right>
+</BorderPane>

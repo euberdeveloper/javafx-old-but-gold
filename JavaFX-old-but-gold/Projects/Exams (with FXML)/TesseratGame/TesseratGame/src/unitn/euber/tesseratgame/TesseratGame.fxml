@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane id="game-area" xmlns:fx="http://javafx.com/fxml/1" stylesheets="unitn/euber/tesseratgame/tesserat.css" fx:controller="unitn.euber.tesseratgame.TesseratGameController">
+    <top>
+        <TilePane id="game-status" prefColumns="2">
+            <HBox spacing="8">
+                <Label styleClass="status-label">Punteggio:</Label>
+                <Label styleClass="status-label, status-value" fx:id="lbPunteggio"></Label>
+            </HBox>
+            <HBox spacing="8">
+                <Label styleClass="status-label">Partite vinte:</Label>
+                <Label styleClass="status-label, status-value" fx:id="lbPartiteVinte"></Label>
+            </HBox>
+        </TilePane>
+    </top>
+    <center>
+        <GridPane id="grid" fx:id="grdGrid"></GridPane>
+    </center>
+    <bottom>
+        <TilePane id="game-actions">
+            <Button styleClass="action-button" onAction="#reset">RESET</Button>
+            <Button styleClass="action-button" onAction="#cheat">CHEAT</Button>
+        </TilePane>
+    </bottom>
+</BorderPane>

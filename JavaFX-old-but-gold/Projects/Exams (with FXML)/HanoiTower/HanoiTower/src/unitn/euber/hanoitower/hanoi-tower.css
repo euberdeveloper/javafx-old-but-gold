@@ -1,0 +1,70 @@
+/* 
+    Created on : 13-giu-2019, 22.37.27
+    Author     : Eugenio Vinicio Berretta
+*/
+
+#game-area {
+    -fx-pref-width: 650;
+    -fx-pref-height: 600;
+}
+
+#title-container {
+    -fx-alignment: CENTER;
+    -fx-border-width: 2;
+    -fx-border-color: blue;
+    -fx-background-color: azure;
+    -fx-padding: 10;
+}
+
+#title {
+    -fx-font-size: 18;
+    -fx-text-fill: blue;
+    -fx-font-type: italic;
+}
+
+#field {
+    -fx-background-color: bisque;
+}
+
+#top-container {
+    -fx-alignment: CENTER;
+    -fx-padding: 10;
+    -fx-spacing: 10;
+}
+
+.move-container {
+    -fx-border-width: 1;
+    -fx-border-color: red;
+    -fx-border-radius: 3;
+    -fx-background-radius: 3;
+    -fx-padding: 5;
+    -fx-spacing: 5;
+}
+
+.move-label {
+    -fx-font-size: 15;
+    -fx-text-fill: orange;
+}
+
+.move-field:disabled {
+    -fx-opacity: 1;
+}
+
+.button {
+    -fx-border-color: red;
+    -fx-border-width: 1;
+    -fx-background-color: lightsalmon;
+    -fx-border-radius: 8;
+    -fx-background-radius: 8;
+}
+.button:hover {
+    -fx-background-color: lightcoral;
+}
+.button:pressed {
+    -fx-background-color: goldenrod;
+}
+
+.center-container {
+    -fx-alignment: CENTER;
+    -fx-padding: 10;
+}

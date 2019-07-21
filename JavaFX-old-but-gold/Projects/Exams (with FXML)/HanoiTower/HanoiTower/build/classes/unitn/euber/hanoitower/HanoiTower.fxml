@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane xmlns:fx="http://javafx.com/fxml/1" id="game-area" stylesheets="unitn/euber/hanoitower/hanoi-tower.css" fx:controller="unitn.euber.hanoitower.HanoiTowerController">
+    <top>
+        <HBox id="title-container">
+            <Label id="title">TOWER OF HANOI</Label>
+        </HBox>
+    </top>
+    
+    <center>
+        <BorderPane fx:id="bpField" id="field">
+            <top>
+                <HBox id="top-container">
+                    <HBox styleClass="move-container">
+                        <Label styleClass="move-label">FROM:</Label>
+                        <TextField fx:id="tfFrom" styleClass="move-field" disable="true"></TextField>
+                    </HBox>
+                    <HBox styleClass="move-container">
+                        <Label styleClass="move-label">TO</Label>
+                        <TextField fx:id="tfTo" styleClass="move-field" disable="true"></TextField>
+                    </HBox>
+                    <Button fx:id="btnClear" id="clear" styleClass="button" onAction="#clear">CLEAR</Button>
+                </HBox>
+            </top>
+            <left>
+                <VBox styleClass="center-container">
+                    <Button fx:id="btnClose" id="close" styleClass="button" onAction="#close">CLOSE</Button>
+                </VBox>
+            </left>
+            <right>
+                <VBox styleClass="center-container">
+                    <Button fx:id="btnReset" id="reset" styleClass="button" onAction="#reset">RESET</Button>
+                </VBox>
+            </right>
+            <bottom>
+                <HBox styleClass="center-container">
+                    <Button fx:id="btnMove" id="move" styleClass="button" onAction="#move">MOVE</Button>
+                </HBox>
+            </bottom>
+            <center></center>
+        </BorderPane>
+    </center>
+</BorderPane>

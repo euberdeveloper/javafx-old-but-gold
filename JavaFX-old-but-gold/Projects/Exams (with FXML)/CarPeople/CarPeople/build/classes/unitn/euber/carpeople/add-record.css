@@ -1,0 +1,61 @@
+/* 
+    Created on : 13-giu-2019, 15.26.37
+    Author     : Eugenio Vinicio Berretta
+*/
+
+#add-container {
+    -fx-border-width: 3.0;
+    -fx-border-color: green;
+    -fx-background-color: aquamarine;
+    -fx-pref-width: 500.0;
+    -fx-pref-height: 400.0;
+    -fx-padding: 10.0;
+}
+
+#header {
+    -fx-max-width: 1000.0;
+    -fx-alignment: CENTER;
+    -fx-padding: 5.0;
+    -fx-text-fill: white;
+    -fx-font-size: 18.0;
+    -fx-font-type: italic;
+    -fx-font-weight: bold;
+    -fx-border-width: 1.0;
+    -fx-border-color: red;
+    -fx-background-color: lightcoral;
+}
+
+#form-container {
+    -fx-spacing: 10.0;
+    -fx-alignment: CENTER;
+    -fx-padding: 10.0
+}
+
+.input {
+    -fx-spacing: 5.0;
+    -fx-alignment: CENTER;
+}
+
+.input-label {
+    -fx-alignment: CENTER_LEFT;
+    -fx-font-size: 16.0;
+    -fx-font-style: italic;
+    -fx-max-width: 1000.0;
+}
+
+#add-button {
+    -fx-max-width: 1000.0;
+    -fx-text-fill: white;
+    -fx-font-size: 18.0;
+    -fx-border-width: 1.0;
+    -fx-border-color: blue;
+    -fx-background-color: burlywood;
+}
+
+#add-button:hover {
+    -fx-background-color: salmon;
+}
+
+#add-button:active {
+    -fx-background-color: chocolate;
+}

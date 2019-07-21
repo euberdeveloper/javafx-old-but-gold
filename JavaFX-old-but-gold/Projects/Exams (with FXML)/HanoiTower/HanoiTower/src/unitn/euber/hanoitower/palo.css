@@ -1,0 +1,13 @@
+/*
+ * Author: Eugenio Vinicio Berretta
+ */
+
+#container {
+    -fx-pref-width: 200;
+    -fx-alignment: BOTTOM_CENTER;
+}
+
+#palo {
+    -fx-fill: black;
+    -fx-stroke-fill: black;
+}

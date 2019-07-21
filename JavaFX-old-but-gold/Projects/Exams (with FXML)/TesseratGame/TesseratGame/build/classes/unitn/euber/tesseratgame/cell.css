@@ -1,0 +1,10 @@
+/* 
+    Created on : 12-giu-2019, 22.51.22
+    Author     : Eugenio Vinicio Berretta
+*/
+
+#cell {
+    -fx-background-color: bisque;
+    -fx-border-color: black;
+    -fx-border-width: 1;
+}

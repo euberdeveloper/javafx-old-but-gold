@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import unitn.euber.carpeople.*?>
+
+<fx:root id="add-container" type="BorderPane" stylesheets="unitn/euber/carpeople/add-record.css" xmlns:fx="http://javafx.com/fxml">
+    <top>
+        <Label id="header" fx:id="lbHeader"></Label>
+    </top>
+    <center>
+        <VBox id="form-container">
+            <TilePane styleClass="input">
+                <Label styleClass="input-label" fx:id="lbField1"></Label>
+                <TextField fx:id="tfField1"></TextField>
+            </TilePane>
+            <TilePane styleClass="input">
+                <Label styleClass="input-label" fx:id="lbField2"></Label>
+                <TextField fx:id="tfField2"></TextField>
+            </TilePane>
+            <TilePane styleClass="input">
+                <Label styleClass="input-label" fx:id="lbField3"></Label>
+                <TextField fx:id="tfField3"></TextField>
+            </TilePane>
+        </VBox>
+    </center>
+    <bottom>
+        <Button id="add-button" onAction="#addRecord" fx:id="btnAdd"></Button>
+    </bottom>
+</fx:root>

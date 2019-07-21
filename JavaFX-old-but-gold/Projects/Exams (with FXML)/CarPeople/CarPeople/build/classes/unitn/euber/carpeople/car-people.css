@@ -1,0 +1,62 @@
+/* 
+    Created on : 13-giu-2019, 11.35.20
+    Author     : Eugenio Vinicio Berretta
+*/
+
+#view-container {
+    -fx-padding: 20.0;
+    -fx-background-color: burlywood;
+    -fx-hgap: 10.0;
+    -fx-pref-width: 600.0;
+    -fx-pref-height: 400.0;
+    -fx-border-color: red;
+    -fx-border-width: 3.0;
+}
+
+.text-area:disabled {
+    -fx-opacity: 1.0;
+}
+
+.center-container {
+    -fx-spacing: 8.0;
+    -fx-padding: 8;
+}
+
+.center-button {
+    -fx-max-width: 1000.0;
+    -fx-background-color: bisque;
+    -fx-background-radius: 80.0;
+    -fx-border-radius: 80.0;
+    -fx-border-width: 1.0;
+    -fx-border-color: blue;
+}
+
+.center-button:hover {
+    -fx-background-color: chocolate;
+}
+
+.center-button:pressed {
+    -fx-background-color: darkorange;
+}
+
+.bottom-container {
+    -fx-padding: 8.0;
+    -fx-alignment: CENTER;
+}
+
+.bottom-button {
+    -fx-max-width: 200;
+    -fx-background-color: bisque;
+    -fx-background-radius: 50.0;
+    -fx-border-radius: 50.0;
+    -fx-border-width: 1.0;
+    -fx-border-color: orange;
+}
+
+.bottom-button:hover {
+    -fx-background-color: chocolate;
+}
+
+.bottom-button:pressed {
+    -fx-background-color: darkorange;
+}

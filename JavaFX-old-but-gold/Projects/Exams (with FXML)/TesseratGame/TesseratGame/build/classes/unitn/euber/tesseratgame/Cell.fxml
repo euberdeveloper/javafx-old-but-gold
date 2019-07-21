@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<fx:root id="cell" type="StackPane" stylesheets="unitn/euber/tesseratgame/cell.css" xmlns:fx="http://javafx.com/fxml">
+    <Label fx:id="text"></Label>
+</fx:root>

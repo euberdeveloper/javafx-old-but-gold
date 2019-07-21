@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<fx:root type="GridPane" id="field" stylesheets="unitn/euber/hanoitower/field.css" xmlns:fx="http://javafx.com/fxml/1">
+</fx:root>

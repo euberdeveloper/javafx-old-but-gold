@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<fx:root id="container" type="StackPane" stylesheets="unitn/euber/hanoitower/palo.css" xmlns:fx="http://javafx.com/fxml/1">
+    <Rectangle fx:id="rctgPalo" onMouseClicked="#selectPalo"  id="palo"></Rectangle>
+</fx:root>
