@@ -22,4 +22,4 @@ These are old exams solved only by using JavaFX and nothing else. The solutions 
 * HanoiTower
 * TesseratGame
 
-These are old exams too, but I solved them by using FXML for the layout. It was not an argument treated by the professor but it is very easy to learn if you already used XML with AndroidStudio or HTML with websites and it saves you a huge amount of time.
+These are old exams too, but I solved them by using FXML for the layout. It was not an argument treated by the professor but it is very easy to learn if you already used XML with AndroidStudio or HTML with websites and it saves you a huge amount of time. 
